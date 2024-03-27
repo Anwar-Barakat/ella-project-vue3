@@ -3,6 +3,7 @@
     <v-navigation-drawer
       v-model="drawer"
       location="right"
+      temporary=""
     ></v-navigation-drawer>
   </div>
 </template>
@@ -12,7 +13,7 @@ export default {
   inject: ["Emitter"],
   data() {
     return {
-      drawer: true,
+      drawer: false,
     };
   },
   mounted() {

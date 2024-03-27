@@ -1,0 +1,11 @@
+:root {
+  --main-color: gold;
+}
+
+.text-main-color {
+  color: var(--main-color);
+}
+
+ul {
+  list-style: none;
+}

@@ -1,14 +1,18 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <UpperBanner />
   </div>
 </template>
 
 <script>
+import UpperBanner from "@/components/home/UpperBanner.vue";
+
 // @ is an alias to /src
 
 export default {
   name: "HomeView",
-  components: {},
+  components: {
+    UpperBanner,
+  },
 };
 </script>
